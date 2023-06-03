@@ -157,7 +157,7 @@
         <div class="col-lg-6 col-12">
           <div class="about-image-five">
             <div>
-              <img src="assets/images/restaurante.jpg" alt="about" style="border-radius:10px;     height: 640px;
+              <img src="assets/images/restaurante.jpg" alt="about" style="border-radius:10px;     height: 300px;
               object-fit: cover;"/>
 
             </div>
@@ -169,15 +169,33 @@
               <h6 class="small-title text-lg" style="color:#ffffff">Nuestro Objetivo</h6>
             <h2 class="main-title fw-bold" style="color:#ffffff"> Impulsar tu negocio ofreciendo una futurista experiencia.</h2>
             <div class="about-five-tab">
-              <nav style="background:transparent">
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <button class="nav-link active" id="nav-who-tab" data-bs-toggle="tab" data-bs-target="#nav-who"
-                    type="button" role="tab" aria-controls="nav-who" aria-selected="true">Who We Are</button>
-                  <button class="nav-link" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision"
-                    type="button" role="tab" aria-controls="nav-vision" aria-selected="false">our Vision</button>
-                  <button class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
-                    type="button" role="tab" aria-controls="nav-history" aria-selected="false">our History</button>
+              <nav style="background:transparent;">
+
+                <div class="nav nav-tabs" id="nav-tab" role="tablist" style=" display: flex;
+                flex-wrap: wrap;
+                padding-left: 0;
+                margin-bottom: 0;
+                list-style: none;
+                justify-content: space-between !important;
+                width: 110%;
+                margin-left: -20px;">
+
+                  <button style="
+                  width: 30%;
+                  height: 45px;"class="nav-link active" id="nav-who-tab" data-bs-toggle="tab" data-bs-target="#nav-who"
+                    type="button" role="tab" aria-controls="nav-who" aria-selected="true">Somos</button>
+                 
+                 <button style="
+                  width: 30%;
+                  height: 45px;"class="nav-link" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision"
+                    type="button" role="tab" aria-controls="nav-vision" aria-selected="false">Vision</button>
+                  
+                  <button style="
+                  width: 30%;
+                  height: 45px;" class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
+                    type="button" role="tab" aria-controls="nav-history" aria-selected="false">Historia</button>
                 </div>
+
               </nav>
               <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-who" role="tabpanel" aria-labelledby="nav-who-tab">
@@ -229,8 +247,8 @@
               <h6 style="color:#ffffff">Servicios</h6>
               <h2 class="fw-bold" style="color:#ffffff">Servicios Waitless </h2>
               <p style="color:#ffffff">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form.
+           {{--      There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form. --}}
               </p>
             </div>
           </div>
@@ -342,7 +360,7 @@
         <div class="row">
           <div class="col-12">
             <div class="content">
-              <h6>Contact</h6>
+              <h6>Contacto</h6>
               <h2 class="fw-bold">Contacto</h2>
               <p>
                Contacta a alguno de nuestros asesores para obtener tu cotizacion y hacerte con nuestros servicios.
@@ -539,7 +557,7 @@
         <div class="row">
           <div class="col-12">
             <div class="content">
-              <h6>Our Team</h6>
+              <h6>Equipo</h6>
               <h2 class="fw-bold">Nuestro Equipo</h2>
               <p>
                 There are many variations of passages of Lorem Ipsum available,
